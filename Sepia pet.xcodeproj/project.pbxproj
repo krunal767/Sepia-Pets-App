@@ -14,6 +14,25 @@
 		0474D31729BB7647001334DF /* Sepia_petTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D31629BB7647001334DF /* Sepia_petTests.swift */; };
 		0474D32129BB7647001334DF /* Sepia_petUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D32029BB7647001334DF /* Sepia_petUITests.swift */; };
 		0474D32329BB7647001334DF /* Sepia_petUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D32229BB7647001334DF /* Sepia_petUITestsLaunchTests.swift */; };
+		0474D33829BB7E5A001334DF /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33629BB7E5A001334DF /* config.json */; };
+		0474D33929BB7E5A001334DF /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33629BB7E5A001334DF /* config.json */; };
+		0474D33A29BB7E5A001334DF /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33629BB7E5A001334DF /* config.json */; };
+		0474D33B29BB7E5A001334DF /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33729BB7E5A001334DF /* pets_list.json */; };
+		0474D33C29BB7E5A001334DF /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33729BB7E5A001334DF /* pets_list.json */; };
+		0474D33D29BB7E5A001334DF /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0474D33729BB7E5A001334DF /* pets_list.json */; };
+		0474D33F29BB7FAA001334DF /* PetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D33E29BB7FAA001334DF /* PetsModel.swift */; };
+		0474D34029BB7FAA001334DF /* PetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D33E29BB7FAA001334DF /* PetsModel.swift */; };
+		0474D34129BB7FAA001334DF /* PetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D33E29BB7FAA001334DF /* PetsModel.swift */; };
+		0474D34329BB834F001334DF /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34229BB834F001334DF /* PetsViewModel.swift */; };
+		0474D34429BB834F001334DF /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34229BB834F001334DF /* PetsViewModel.swift */; };
+		0474D34529BB834F001334DF /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34229BB834F001334DF /* PetsViewModel.swift */; };
+		0474D34829BB8DEA001334DF /* PetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34729BB8DEA001334DF /* PetsListView.swift */; };
+		0474D34929BB8DEA001334DF /* PetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34729BB8DEA001334DF /* PetsListView.swift */; };
+		0474D34A29BB8DEA001334DF /* PetsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34729BB8DEA001334DF /* PetsListView.swift */; };
+		0474D34D29BB8E64001334DF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0474D34C29BB8E64001334DF /* SDWebImageSwiftUI */; };
+		0474D35029BB938E001334DF /* PetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34F29BB938E001334DF /* PetImageView.swift */; };
+		0474D35129BB938E001334DF /* PetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34F29BB938E001334DF /* PetImageView.swift */; };
+		0474D35229BB938E001334DF /* PetImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D34F29BB938E001334DF /* PetImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +63,12 @@
 		0474D31C29BB7647001334DF /* Sepia petUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sepia petUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0474D32029BB7647001334DF /* Sepia_petUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_petUITests.swift; sourceTree = "<group>"; };
 		0474D32229BB7647001334DF /* Sepia_petUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_petUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0474D33629BB7E5A001334DF /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		0474D33729BB7E5A001334DF /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		0474D33E29BB7FAA001334DF /* PetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsModel.swift; sourceTree = "<group>"; };
+		0474D34229BB834F001334DF /* PetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
+		0474D34729BB8DEA001334DF /* PetsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListView.swift; sourceTree = "<group>"; };
+		0474D34F29BB938E001334DF /* PetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474D34D29BB8E64001334DF /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +120,10 @@
 		0474D30429BB7645001334DF /* Sepia pet */ = {
 			isa = PBXGroup;
 			children = (
+				0474D33229BB7DCD001334DF /* Helpers */,
+				0474D33129BB7DC2001334DF /* ViewModel */,
+				0474D33029BB7DBC001334DF /* View */,
+				0474D32F29BB7DB5001334DF /* Model */,
 				0474D30529BB7645001334DF /* Sepia_petApp.swift */,
 				0474D30729BB7645001334DF /* ContentView.swift */,
 				0474D30929BB7647001334DF /* Assets.xcassets */,
@@ -127,6 +157,56 @@
 			path = "Sepia petUITests";
 			sourceTree = "<group>";
 		};
+		0474D32F29BB7DB5001334DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0474D33E29BB7FAA001334DF /* PetsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0474D33029BB7DBC001334DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0474D34629BB8DC7001334DF /* PetListView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0474D33129BB7DC2001334DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0474D34229BB834F001334DF /* PetsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0474D33229BB7DCD001334DF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0474D33329BB7DD4001334DF /* Json */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0474D33329BB7DD4001334DF /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				0474D33629BB7E5A001334DF /* config.json */,
+				0474D33729BB7E5A001334DF /* pets_list.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		0474D34629BB8DC7001334DF /* PetListView */ = {
+			isa = PBXGroup;
+			children = (
+				0474D34729BB8DEA001334DF /* PetsListView.swift */,
+				0474D34F29BB938E001334DF /* PetImageView.swift */,
+			);
+			path = PetListView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +223,9 @@
 			dependencies = (
 			);
 			name = "Sepia pet";
+			packageProductDependencies = (
+				0474D34C29BB8E64001334DF /* SDWebImageSwiftUI */,
+			);
 			productName = "Sepia pet";
 			productReference = 0474D30229BB7645001334DF /* Sepia pet.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +298,9 @@
 				Base,
 			);
 			mainGroup = 0474D2F929BB7645001334DF;
+			packageReferences = (
+				0474D34B29BB8E64001334DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 0474D30329BB7645001334DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474D30D29BB7647001334DF /* Preview Assets.xcassets in Resources */,
+				0474D33B29BB7E5A001334DF /* pets_list.json in Resources */,
 				0474D30A29BB7647001334DF /* Assets.xcassets in Resources */,
+				0474D33829BB7E5A001334DF /* config.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +328,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474D33929BB7E5A001334DF /* config.json in Resources */,
+				0474D33C29BB7E5A001334DF /* pets_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +337,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474D33A29BB7E5A001334DF /* config.json in Resources */,
+				0474D33D29BB7E5A001334DF /* pets_list.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +350,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474D30829BB7645001334DF /* ContentView.swift in Sources */,
+				0474D33F29BB7FAA001334DF /* PetsModel.swift in Sources */,
+				0474D34829BB8DEA001334DF /* PetsListView.swift in Sources */,
+				0474D34329BB834F001334DF /* PetsViewModel.swift in Sources */,
+				0474D35029BB938E001334DF /* PetImageView.swift in Sources */,
 				0474D30629BB7645001334DF /* Sepia_petApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +362,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474D34929BB8DEA001334DF /* PetsListView.swift in Sources */,
+				0474D34429BB834F001334DF /* PetsViewModel.swift in Sources */,
+				0474D35129BB938E001334DF /* PetImageView.swift in Sources */,
 				0474D31729BB7647001334DF /* Sepia_petTests.swift in Sources */,
+				0474D34029BB7FAA001334DF /* PetsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474D32129BB7647001334DF /* Sepia_petUITests.swift in Sources */,
+				0474D34129BB7FAA001334DF /* PetsModel.swift in Sources */,
+				0474D34A29BB8DEA001334DF /* PetsListView.swift in Sources */,
+				0474D34529BB834F001334DF /* PetsViewModel.swift in Sources */,
+				0474D35229BB938E001334DF /* PetImageView.swift in Sources */,
 				0474D32329BB7647001334DF /* Sepia_petUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +683,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0474D34B29BB8E64001334DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0474D34C29BB8E64001334DF /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0474D34B29BB8E64001334DF /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0474D2FA29BB7645001334DF /* Project object */;
 }
