@@ -11,12 +11,14 @@ import SwiftUI
 struct Sepia_petApp: App {
     
     @StateObject private var petsViewModel = PetsViewModel()
+    @StateObject private var settingConfigViewModel = SettingConfigViewModel()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .navigationViewStyle(.stack)
                 .environmentObject(petsViewModel)
+                .environmentObject(settingConfigViewModel)
         }
     }
 }

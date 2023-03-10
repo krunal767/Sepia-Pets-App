@@ -39,6 +39,18 @@
 		0474D35A29BB992A001334DF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35929BB992A001334DF /* WebView.swift */; };
 		0474D35B29BB992A001334DF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35929BB992A001334DF /* WebView.swift */; };
 		0474D35C29BB992A001334DF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35929BB992A001334DF /* WebView.swift */; };
+		0474D35E29BB9E88001334DF /* SettingConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35D29BB9E88001334DF /* SettingConfigModel.swift */; };
+		0474D35F29BB9E88001334DF /* SettingConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35D29BB9E88001334DF /* SettingConfigModel.swift */; };
+		0474D36029BB9E88001334DF /* SettingConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D35D29BB9E88001334DF /* SettingConfigModel.swift */; };
+		0474D36229BBA10C001334DF /* SettingConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36129BBA10C001334DF /* SettingConfigViewModel.swift */; };
+		0474D36329BBA10C001334DF /* SettingConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36129BBA10C001334DF /* SettingConfigViewModel.swift */; };
+		0474D36429BBA10C001334DF /* SettingConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36129BBA10C001334DF /* SettingConfigViewModel.swift */; };
+		0474D36729BBA10C001334DF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36629BBA10C001334DF /* Date+Extension.swift */; };
+		0474D36829BBA10C001334DF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36629BBA10C001334DF /* Date+Extension.swift */; };
+		0474D36929BBA10C001334DF /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36629BBA10C001334DF /* Date+Extension.swift */; };
+		0474D36B29BBA10C001334DF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36A29BBA10C001334DF /* AlertView.swift */; };
+		0474D36C29BBA10C001334DF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36A29BBA10C001334DF /* AlertView.swift */; };
+		0474D36D29BBA10C001334DF /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0474D36A29BBA10C001334DF /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +89,10 @@
 		0474D34F29BB938E001334DF /* PetImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImageView.swift; sourceTree = "<group>"; };
 		0474D35329BB96D0001334DF /* PetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailView.swift; sourceTree = "<group>"; };
 		0474D35929BB992A001334DF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0474D35D29BB9E88001334DF /* SettingConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingConfigModel.swift; sourceTree = "<group>"; };
+		0474D36129BBA10C001334DF /* SettingConfigViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingConfigViewModel.swift; sourceTree = "<group>"; };
+		0474D36629BBA10C001334DF /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		0474D36A29BBA10C001334DF /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				0474D33E29BB7FAA001334DF /* PetsModel.swift */,
+				0474D35D29BB9E88001334DF /* SettingConfigModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				0474D34229BB834F001334DF /* PetsViewModel.swift */,
+				0474D36129BBA10C001334DF /* SettingConfigViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -193,6 +211,7 @@
 		0474D33229BB7DCD001334DF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0474D36529BBA10C001334DF /* Extensions */,
 				0474D35829BB98F7001334DF /* CustomUI's */,
 				0474D33329BB7DD4001334DF /* Json */,
 			);
@@ -229,8 +248,17 @@
 			isa = PBXGroup;
 			children = (
 				0474D35929BB992A001334DF /* WebView.swift */,
+				0474D36A29BBA10C001334DF /* AlertView.swift */,
 			);
 			path = "CustomUI's";
+			sourceTree = "<group>";
+		};
+		0474D36529BBA10C001334DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0474D36629BBA10C001334DF /* Date+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +404,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474D30829BB7645001334DF /* ContentView.swift in Sources */,
+				0474D36729BBA10C001334DF /* Date+Extension.swift in Sources */,
+				0474D36229BBA10C001334DF /* SettingConfigViewModel.swift in Sources */,
 				0474D35A29BB992A001334DF /* WebView.swift in Sources */,
+				0474D35E29BB9E88001334DF /* SettingConfigModel.swift in Sources */,
+				0474D36B29BBA10C001334DF /* AlertView.swift in Sources */,
 				0474D33F29BB7FAA001334DF /* PetsModel.swift in Sources */,
 				0474D34829BB8DEA001334DF /* PetsListView.swift in Sources */,
 				0474D35429BB96D0001334DF /* PetDetailView.swift in Sources */,
@@ -390,9 +422,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0474D35F29BB9E88001334DF /* SettingConfigModel.swift in Sources */,
+				0474D36329BBA10C001334DF /* SettingConfigViewModel.swift in Sources */,
 				0474D34929BB8DEA001334DF /* PetsListView.swift in Sources */,
+				0474D36C29BBA10C001334DF /* AlertView.swift in Sources */,
 				0474D34429BB834F001334DF /* PetsViewModel.swift in Sources */,
 				0474D35129BB938E001334DF /* PetImageView.swift in Sources */,
+				0474D36829BBA10C001334DF /* Date+Extension.swift in Sources */,
 				0474D35529BB96D0001334DF /* PetDetailView.swift in Sources */,
 				0474D31729BB7647001334DF /* Sepia_petTests.swift in Sources */,
 				0474D34029BB7FAA001334DF /* PetsModel.swift in Sources */,
@@ -405,7 +441,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0474D32129BB7647001334DF /* Sepia_petUITests.swift in Sources */,
+				0474D36929BBA10C001334DF /* Date+Extension.swift in Sources */,
+				0474D36429BBA10C001334DF /* SettingConfigViewModel.swift in Sources */,
 				0474D35C29BB992A001334DF /* WebView.swift in Sources */,
+				0474D36029BB9E88001334DF /* SettingConfigModel.swift in Sources */,
+				0474D36D29BBA10C001334DF /* AlertView.swift in Sources */,
 				0474D34129BB7FAA001334DF /* PetsModel.swift in Sources */,
 				0474D34A29BB8DEA001334DF /* PetsListView.swift in Sources */,
 				0474D35629BB96D0001334DF /* PetDetailView.swift in Sources */,
